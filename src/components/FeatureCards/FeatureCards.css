@@ -1,0 +1,59 @@
+.feature-cards
+{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 20px;
+    width: 18%;
+    align-items: center;
+    border-radius: 20px;
+    height:170px;
+    box-shadow: 0 0 5px 2px #37f910be;
+   background-color: rgb(255, 255, 255);
+}
+@media screen and (max-width:768px)
+{
+    .feature-cards
+{
+    padding: 5px;
+    margin: 10px;
+    width: 25%;
+    height:150px;
+    display: block;
+}
+}
+
+.feature-cards:hover {
+    transform: scale(1.060);
+    box-shadow: 0 0 5px 2px #f96910be;
+    overflow: hidden;
+    transition: 1s;
+  }
+.feature-img
+{
+    width: 50%;
+    height: 100px;
+}
+@media screen and (max-width:768px)
+{
+    .feature-img
+{
+    width: 70%;
+    height: 60px;
+}
+}
+.feature-title
+{
+    justify-content:right;
+    margin-top: 10px;
+    font-size: 18px;
+}
+@media screen and (max-width:768px)
+{
+    .feature-title
+{
+    justify-content:center;
+    margin-top: 5px;
+    font-size: 15px;
+}
+}
