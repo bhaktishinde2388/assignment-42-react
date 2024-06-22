@@ -2,7 +2,6 @@ import Button from "../Buttons/Button";
 import "./ProductCard.css";
 import {Link} from "react-router-dom";
 import "./../Buttons/Button.css";
-import About from "./../../views/About/About"
 import ProductView from "../../views/BlogView/BlogView"
 
 // const ProductCards =({ name,posterUrl,rating,cardInfo,mainPrice,oldPrice,percentageOff})=>

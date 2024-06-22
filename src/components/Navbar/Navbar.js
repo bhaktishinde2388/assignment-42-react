@@ -10,7 +10,6 @@ function Navbar({theme}) {
     <div className="navbar-container">
      
         <Link to="/" className="navbar-link">Home</Link>
-        <Link to="/About" className="navbar-link">About</Link>
         <Link to="/Product" className="navbar-link">Products</Link>
         <Link to="/Blog" className="navbar-link">Blog</Link>
        
